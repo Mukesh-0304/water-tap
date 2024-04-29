@@ -1,0 +1,54 @@
+Css
+*{
+margin:0px;
+padding:0px
+}
+.tank{
+    border:1px solid black;
+    height:500px;
+    width:300px;
+    border-radius: 10px 10px 0px 0px;
+    margin:50px;
+   
+
+
+}
+.water{
+    height:500px;
+    width:100%;
+    background-color: aqua;
+    border-radius: 10px 10px 0px 0px;
+     transition:0.5s;
+    margin-top: 0px;
+}
+.pipehorizontal{
+    height:20px;
+    width:110px;
+    background-color:black;
+    margin-top: 530px;
+    margin-left:-50px
+}
+.whole{
+  display:flex;
+   
+}
+.pipevertical{
+    height:80px;
+    width:20px;
+    background-color: black;
+    margin-left:60px;
+    margin-top:-50px;
+}
+.tapbutton{
+    width:40px;
+    height:20px;
+    background-color: red;
+   margin-left:-10px
+}
+.vertical-flow{
+    height: 300px;
+    width:20px;
+    background-color:white;
+    margin-top:50px;
+    margin-left:0px;
+}
